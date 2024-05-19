@@ -1,7 +1,7 @@
+initlist = []
 class Student:
     def __init__(self, name, lastname, id, courselist, gradelist):
         initdict = {}
-        initlist = []
         self.name = name
         self.lastname = lastname
         self.id = id
