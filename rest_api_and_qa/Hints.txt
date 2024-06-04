@@ -1,0 +1,11 @@
+class Car:
+    def __init__(self,manufacturer:str,year:int,model:str):
+    self.manufacturer = manufacturer
+    self.year = year
+    self.model = model
+
+
+
+
+Given the current class, we see that manufacturer will be hinted for us as an str, and year will be hinted as an int.
+It will not crash your code if you ignore it, only if it can't use the other instances.

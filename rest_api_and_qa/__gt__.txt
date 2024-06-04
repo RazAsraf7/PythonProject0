@@ -1,0 +1,16 @@
+If we want to check if one object of class is greater than the other, we need to use the __gt__ built in function.
+
+class Example:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def __gt__(self,other):
+        return self.a > other.a and self.b > other.b
+
+
+first_ex = Example(15,2)
+second_ex = Example(14,1)
+
+print(first_ex>second_ex)
+(output: True)

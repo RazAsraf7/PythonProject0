@@ -1,0 +1,16 @@
+If we want to check if two object of class are equal, we need to use the __eq__ built in function.
+
+class Example:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def __eq__(self,other):
+        return self.a==other.a and self.b==other.b
+
+
+first_ex = Example(15,2)
+second_ex = Example(15,2)
+
+print(first_ex==second_ex)
+(output: True)

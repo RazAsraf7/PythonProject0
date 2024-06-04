@@ -1,0 +1,27 @@
+JSON - JavaScript Object Notation
+
+JSON is a text format for storing and transporting data
+
+JSON is "self-describing" and easy to understand
+
+
+Json is written as Python dictionary. Two main differences between Python's dictionary and Json:
+The first is that in Python you write True and in Json you write true.
+The second is that in Python you write None and in Json you write null.
+
+This example is a JSON string:
+
+'{"name":"John", "age":30, "car":null}'
+
+It defines an object with 3 properties:
+
+name
+age
+car
+Each property has a value.
+
+If you parse the JSON string with a JavaScript program, you can access the data as an object:
+
+let personName = obj.name;
+let personAge = obj.age;
+

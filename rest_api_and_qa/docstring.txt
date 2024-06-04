@@ -1,0 +1,10 @@
+When defining a function in Python, it will be usable to have a multiple line string (''' ''')
+of the usage in this function. It will be easier to understand for anyone using it later.
+
+def example(a):
+    """
+    This function returns the inserted argument with hello before.
+    a : the argument of the user
+    return: type str
+    """
+    return 'Hello' + a

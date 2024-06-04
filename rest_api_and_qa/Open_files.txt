@@ -1,0 +1,23 @@
+Open files
+
+file_object.open('path/to/file','r/w/a/r+/w+')
+
+(actions)
+
+file_object.close()
+
+or
+
+with open('path/to/file', 'r/w/a/r+/w+')
+(actions)
+
+When openeing a file you must close it after the usage, because if you don't close the file, 
+no one else will be able to open it.
+
+With will automatically make sure that the file opened will be closed at the end of the usage.
+
+'r' = 'read'. You cannot edit the file. Pointer is at the first letter.
+'w' = 'write'. You can only overwrite the file. Pointer is at the first letter.
+'a' = 'append'. Like a list, the pointer will be at the last letter, and you can append to the text without changing it.
+'r+' = 'read and write'. This will make it possible to write or read the file. Pointer is at the begginning.
+'w+' = 'overwrite and read'. Like the 'r+', but you will be able to overwrite instead of writing at the end.
