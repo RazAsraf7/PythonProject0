@@ -1,35 +1,44 @@
-# PythonProject0 🐍
+# PythonProject0
 
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688.svg)
+## Overview
 
-## 📖 Overview
-This repository contains a collection of Python exercises, mini-projects, and tutorials created while learning and practicing Python programming. 
+This repository contains a collection of small Python exercises, experiments, and learning materials created while studying Python and backend-related topics.
 
-The goal of this repository is to strengthen programming fundamentals, experiment with different Python concepts, and build practical, hands-on scripts.
+The repository is organized into multiple folders, each focusing on a specific topic or exercise.
 
----
-
-## 🎯 Topics Covered
-* Python syntax and core concepts
-* Object-Oriented Programming (OOP) & Data structures
-* Algorithmic problem-solving and basic scripting
-* **REST API Development** (using FastAPI)
-* **File System Management** (automating file organization)
-* **Data Handling** (working with CSV files)
+The goal of this repository is to document the learning process and practice different Python concepts.
 
 ---
 
-## 📂 Project Structure
+## Repository Structure
 
-Here is a breakdown of the different modules and projects within this repository:
-
-```text
+```
 PythonProject0
 │
-├── Training/               # General Python training scripts and exercises
-├── banktasks/              # Tasks and logic related to banking simulations
-├── csv/                    # Scripts for reading, writing, and manipulating CSV files
-├── filextesnionsproj/      # Automation script that organizes files into folders based on their extensions
-├── missionfiles/           # Various coding missions and assignments
-└── rest_api_and_qa/        # REST API development tutorials featuring FastAPI and QA testing
+├── Training
+├── banktasks
+├── csv
+├── filextensionsproj
+├── missionfiles
+├── rest_api_and_qa
+└── README.md
+```
+
+Each folder contains small projects or exercises focusing on specific Python topics.
+
+---
+
+## Topics Covered
+
+* Python fundamentals
+* File handling
+* Working with CSV files
+* Small automation scripts
+* Backend learning experiments
+* FastAPI learning exercises
+
+---
+
+## Purpose
+
+This repository serves as a sandbox environment for practicing Python development and experimenting with different programming concepts.
